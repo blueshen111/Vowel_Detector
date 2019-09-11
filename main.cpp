@@ -11,12 +11,18 @@ using namespace std;
 
 char isThereAVowel(string userInput){
 
+
+
 int index = 0;
 
-//if (getchar() == ' '){
+//if (index == 0)
 
-   // return cout << "FALSE" << endl;
-   // }
+//{
+//if (userInput.at(index) == n );
+
+  //  return cout << "FALSE" << endl;
+
+   //}
 
 if (userInput.at(index) == 'a' || userInput.at(index) == 'e' ||
     userInput.at(index) == 'i' ||
@@ -55,6 +61,7 @@ cin >> userInput;
 char vowelDetector = isThereAVowel(userInput);
 
 cout << vowelDetector << endl;
+
 
 return 0;
 }
